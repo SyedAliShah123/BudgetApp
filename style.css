@@ -1,0 +1,122 @@
+* {
+
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+body h1 {
+    text-align: center;
+    border: 1px solid black;
+    width: 80%;
+    margin: 2px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #4F709C;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4F709C;
+    width: 80%;
+    margin: auto;
+
+}
+
+.getInput {
+    border: 2px solid #3fb8b8;
+    width: 80%;
+    text-align: center;
+    line-height: 4;
+    background-color: #113f3f;
+    font-size: larger;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.getInput label,
+input,
+option {
+    background-color: #213555;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#select-category {
+    background-color: #213555;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+#add-btn {
+    background-color: #213555;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.expenses-list {
+    width: 80%;
+    border: 2px solid #3fb8b8;
+    text-align: center;
+    margin: 2px;
+    background-color: #113f3f;
+}
+
+.expenses-list h2 {
+    background-color: #113f3f;
+    width: 20%;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+table {
+    display: grid;
+    background-color: #113f3f;
+}
+
+thead tr th {
+    background-color: #213555;
+    font-size: 20px;
+    padding: 8px;
+    width: 20%;
+    text-align: left;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #3fb8b8;
+}
+
+tfoot tr td {
+    margin-top: 50px;
+    background-color: #213555;
+    font-size: 20px;
+    padding: 6px;
+    width: 20%;
+    text-align: left;
+}
+
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+th,td {
+    padding: 8px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: #213555;
+    width: 20%;
+}

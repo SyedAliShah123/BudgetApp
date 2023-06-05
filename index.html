@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>BUDGET APP</h1>
+    <div class="container">
+
+        <h3>Enter Your Budget</h3>
+        <input type="number" id="totalBudget">
+
+        <div class="getInput">
+            <label for="select-category">Category :</label>
+            <select id="select-category">
+                <option value="Restaurant & Cafe">Restaurant & Cafe</option>
+                <option value="Clothes & Shoping">Clothes & Shoping</option>
+                <option value="Credits & loans">Credits & loans</option>
+                <option value="Gift Cards">Gift Cards</option>
+            </select> <br>
+
+            <label for="amount-input">Amount</label>
+            <input type="number" id="amount-input"> <br>
+            <label for="date-input">Date</label>
+            <input type="date" id="Date-input">
+            <button id="add-btn">Add</button>
+
+        </div>
+
+        <div class="expenses-list">
+            <h2>EXPENSE LIST</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="Expense-table-body">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total Budget :</td>
+                        <td id="Total-Budget"></td>
+                        <td>Expence :</td>
+                        <td id="total-amount"></td>
+                        <td>Balance :</td>
+                        <td id="Remaining-Balance"></td>
+
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
